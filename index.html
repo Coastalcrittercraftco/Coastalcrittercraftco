@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coastal Critter Craft Co</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f7f9;
+            color: #1e3a2f;
+        }
+        header {
+            background: #356b4b;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #2f5a40;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 6px #000;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2f5a40;
+            color: white;
+            margin-top: 40px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coastal Critter Craft Co</h1>
+        <p>Handcrafted Bird Houses &amp; Nests — Made on the Aussie Coast</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#custom">Custom Orders</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <div class="hero" id="home">
+        Bush to Coast Handcrafted Bird Houses
+    </div>
+
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>
+            Coastal Critter Craft Co is a small local business creating handcrafted painted bird houses for Aussie wildlife across the Eyre Peninsula.
+            Every house is made using natural timber, simple designs, and bush‑to‑coast inspiration that fits perfectly into local yards.
+        </p>
+        <p>
+            We focus on honest, handmade builds — nothing extreme, just quality bird houses made with care.
+        </p>
+    </section>
+
+    <section class="section" id="products">
+        <h2>Our Products</h2>
+
+        <div class="products">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581803118522-7b72a50f7e9f" alt="Bird Box" />
+                <h3>Standard Bird Box</h3>
+                <p>Perfect for small local birds. Durable, weather‑ready, and handcrafted.</p>
+                <strong>$35</strong>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783" alt="Bird Box" />
+                <h3>Coastal Nest Box</h3>
+                <p>Inspired by coastal textures and colours. Great for gardens and porches.</p>
+                <strong>$45</strong>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1591779051696-1c3fa1469c3e" alt="Bird Box" />
+                <h3>Wildlife Habitat Box</h3>
+                <p>Built tough for bush settings. Supports a wide range of native birds.</p>
+                <strong>$55</strong>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1598133894005-43f7fb11a482" alt="Dog Kennel" />
+                <h3>Dog Kennels</h3>
+                <p>Sturdy, weather‑ready kennels built for pets across the Eyre Peninsula.</p>
+                <strong>From $120</strong>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1614850715641-5a1ef04e3d6b" alt="Animal House" />
+                <h3>Small Animal Houses</h3>
+                <p>Perfect shelters for rabbits, guinea pigs, chooks, and other pets.</p>
+                <strong>From $30</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="custom">
+        <h2>Custom Orders</h2>
+        <p>We specialise in made‑to‑order builds for bird life, pets, and local animals across the Eyre Peninsula. If you need something unique:</p>
+        <ul>
+            <li>Custom bird boxes</li>
+            <li>Personalised dog beds and kennels</li>
+            <li>Small animal shelters (rabbits, chooks, guinea pigs, etc.)</li>
+            <li>Outdoor wooden structures</li>
+            <li>Coastal‑themed and bush‑themed designs</li>
+        </ul>
+        <p>Send us your idea and we’ll design and build it for you.</p>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact &amp; Orders</h2>
+        <p>Phone: 0491113247</p>
+        <p>Email: coastalcrittercraft@example.com</p>
+        <p>Instagram: @coastalcrittercraft</p>
+        <h3>Prices (including install & delivery)</h3>
+        <ul>
+            <li>Small (painted) birdhouse: $5 - $10</li>
+            <li>Medium (painted) birdhouse: $10 - $15</li>
+            <li>Special / Custom painted birdhouse: $20 - $30</li>
+        </ul>
+        <p><em>Handcrafted, high-quality builds. Custom designs to suit your request.</em></p>
+    </section>
+
+    <section class="section" id="gallery">
+        <h2>Gallery / Poster</h2>
+        <p>Here is our official business poster:</p>
+        <iframe src="Coastal-critter-ad-poster-4.pdf"></iframe>
+    </section>
+
+    <footer>
+        &copy; 2025 Coastal Critter Craft Co — Handcrafted Aussie Bird Boxes
+    </footer>
+</body>
+</html>
